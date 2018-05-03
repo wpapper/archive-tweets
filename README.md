@@ -2,6 +2,8 @@
 
 This Python script and the related files will download your tweets from Twitter and save them in a plaintext archive file on your computer. It is intended to be run periodically to add recent tweets to an existing archive file. The script (in a slightly earlier version) is described in [this blog post][1]. If you already have an archive of tweets in ThinkUp, you might find [this post][2] useful in turning it into a plaintext archive. If you are starting an archive from scratch, [this post and script][3] by Tim Bueno will be helpful.
 
+This version supports Python 3 and archives extended tweets.
+
 The files in the repository are:
 
 * `archive-tweets.py`. This is the script that does the archiving. It can be stored anywhere and should be run periodically via a system like `cron` or `launchd`. The "Parameters" section at the top of the file should be edited to your Twitter user name, your time zone, and the directory where you want to keep the archive.
