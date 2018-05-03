@@ -6,7 +6,7 @@ import os
 
 # Parameters.
 me = 'username'
-urlprefix = 'http://twitter.com/%s/status/' % me
+urlprefix = 'https://twitter.com/%s/status/' % me
 tweetdir = os.environ['HOME'] + '/Dropbox/twitter/'
 tweetfile = tweetdir + 'twitter.txt'
 idfile = tweetdir + 'lastID.txt'
